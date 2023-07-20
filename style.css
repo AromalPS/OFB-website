@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@600&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+nav{
+    font-size: 16px;
+    font-style: normal;
+    line-height: normal;
+}
+.navbar-brand{
+    position: relative;
+    font-weight: 700;
+    line-height: normal;
+    left: -30px;
+}
+
+.navbar-brand img {
+    position: relative;
+    bottom: 10px;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.btn-yellow {
+    font-weight: 600 !important;
+    border-radius: 25px !important;
+    background: #FFC701 !important;
+}
+
+/* banner */
+
+h1 {
+    font-size: 64px !important;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.banner {
+    display: flex;
+}
+
+.title span {
+    color: #003566;
+}
+
+.title {
+    margin-top: 200px;
+}
+
+.banner-img{
+    display: flex;
+    align-items: end;
+}
+
+.banner-img-1 {
+    background: url(assets/banner-img-1.png);
+    border-radius: 25px;
+    height: 600px;
+    width: 400px;
+    margin: 10px;
+}
+
+.banner-img-2:hover, .banner-img-1 {
+    width: 100px;
+}
+
+.banner-img-2 {
+    background: url(assets/banner-img-2.png);
+    border-radius: 25px;
+    height: 600px;
+    width: 100px;
+    margin: 10px;
+    transition: 1s;
+}
+
+.banner-img-2:hover{
+    animation: small-to-wide 1s ease forwards;
+}
+
+@keyframes small-to-wide {
+    100% {
+        width: 400px;
+    }
+
+}
+
+
+
+.banner-img-3 {
+    background: url(assets/banner-img-3.png);
+    border-radius: 25px;
+    height: 600px;
+    width: 100px;
+    margin: 10px;
+}
+
+.banner-img-4 {
+    background: url(assets/banner-img-4.png);
+    border-radius: 25px;
+    height: 600px;
+    width: 100px;
+    margin: 10px;
+}
