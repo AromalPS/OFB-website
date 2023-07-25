@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -59,7 +60,7 @@ h1 {
 
 .banner-img{
     display: flex;
-    align-items: end;
+    align-items: right;
 }
 
 .banner-img-1 {
@@ -68,10 +69,6 @@ h1 {
     height: 600px;
     width: 400px;
     margin: 10px;
-}
-
-.banner-img-2:hover, .banner-img-1 {
-    width: 100px;
 }
 
 .banner-img-2 {
@@ -83,16 +80,29 @@ h1 {
     transition: 1s;
 }
 
-.banner-img-2:hover{
+.banner-img-1:hover, .banner-img-2:hover, .banner-img-3:hover, .banner-img-4:hover{
     animation: small-to-wide 1s ease forwards;
 }
 
+
 @keyframes small-to-wide {
+    
     100% {
         width: 400px;
     }
 
 }
+.banner-img-1:hover{
+    animation: wide-to-small 1s ease forwards;
+
+}
+
+@keyframes wide-to-small{
+    100%{
+        width: 100px;
+    }
+}
+
 
 
 
