@@ -121,3 +121,68 @@ h1 {
     width: 100px;
     margin: 10px;
 }
+
+/* start of services */
+
+.bg-color-secondary {
+    background: #F8F4F1;
+    margin-top: 60px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #003566;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.service-box {
+    display: flex;
+    background: linear-gradient(to left, #FAEBBC, #FFC701);
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-height: 400px;
+}
+
+.titles ul {
+    padding: 0;
+    position: relative;
+}
+
+.titles li {
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    text-align: center;
+	margin: 0;
+	padding: 35px;
+}
+
+hr {
+    margin: 0px !important;
+    padding: 0px;
+    
+}
+
+li:hover {
+    background-color: #FFF1BF;
+}
+li.selected:hover {
+    background-color: #FFF1BF;
+    border-top-left-radius: 25px;
+}
+
+.service-box .image {
+    background: url(assets/banner-img-1.png);
+    align-items: center;
+}
+
+.description {
+    padding: 20px;
+}
+
+.description h3 {
+    margin-top: 25px;
+}
