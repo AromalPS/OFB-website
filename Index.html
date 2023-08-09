@@ -82,6 +82,48 @@
           </div>
         </div>
         </div>
+        <div class="container mt-5 d-flex justify-content-center">
+          <div class="row">
+            <!-- Left column for the form -->
+            <div class="col-lg-6">
+              <h2 class="mb-4">Contact Us</h2>
+              <form id="contactForm" method="POST" action="submit_form.php">
+                <div class="row mb-3">
+                  <div class="col">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                  </div>
+                  <div class="col">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input type="text" class="form-control" id="subject" name="subject" required>
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-label">Message</label>
+                  <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+      
+            <!-- Right column for additional content -->
+            <div class="card bg-light mb-3" style="max-width: 18rem;">
+              <!--<div class="card-header">Header</div> -->
+              <div class="card-body">
+                <!--<h5 class="card-title">Light card title</h5>-->
+                <p class="card-text 1"><strong>email</strong><br>ofb@gmail.com</p>
+                <p class="card-text 2"><strong>phone Number</strong><br>9876543210</p>
+                <p class="card-text 3"><strong>address</strong><br>Palakkad</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      
     </main>
 </body>
 </html>
