@@ -205,3 +205,20 @@ li.selected:hover {
 .reserved{
     text-align:center;
 }
+.container {
+    text-align: center;
+  }
+  
+  .img-circle {
+    border-radius: 20%;
+    width:50%;
+  }
+  
+  .hidden-cards {
+    display: none;
+  }
+  
+  .team-member:hover {
+    transform: scale(1.1);
+  }
+  
