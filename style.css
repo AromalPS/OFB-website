@@ -189,3 +189,19 @@ li.selected:hover {
 .card-body{
     
 }
+.list-inline{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.list-inline-item{
+    padding: 10px;
+    list-style: none;
+}
+.ftr{
+    padding-bottom: 30px;
+}
+.reserved{
+    text-align:center;
+}
