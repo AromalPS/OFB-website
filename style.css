@@ -234,3 +234,23 @@ li.selected:hover {
   .why-choose-us-h2 {
     text-align: left;
   }
+
+  .icon-bg {
+    position: relative;
+    left: -55px;
+  }
+
+  .display {
+    display: flex;
+  }
+
+  .video {
+    position: absolute;
+    min-width: 525px;
+    min-height: 318px;
+    bottom: 0;
+    right: 0;
+  }
+
+  
+
