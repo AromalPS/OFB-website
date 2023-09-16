@@ -42,8 +42,8 @@
         <!-- End of navbar -->
 
         <!-- Start of hero section -->
-
-        <div class="container">
+r
+        <div class="container centered">
             <div class="banner">
                 <div class="title col-lg-3">
                     <h1>OUT<br>OF THE<br><span>BOX.</span></h1>
@@ -82,6 +82,21 @@
           </div>
         </div>
         </div>
+
+        <!-- End of service section -->
+
+        <!-- Start of why choose us? -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4"><h2 class="why-choose-us-h2">Why<br>Choose Us?</h2></div>
+            <div class="col-lg-6 offset-lg-2">
+              <p class="why-choose-us-p">Lorem ipsum dolor sit amet. 33 sint rerum ea inventore officiis et aliquam accusantium et aspernatur ipsa rem quidem consequatur non consequatur omnis! non atque doloremque sit vitae perferendis!</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- End of why choose us? -->
         <!--meet team section-->
         <div class="container">
           <h2 style="margin:30px ;">Meet the Team</h2>
@@ -162,43 +177,42 @@
         
       
 
-        <div class="container mt-5 d-flex justify-content-center">
+        <div class="container">
+          <h2 class="mb-4">Reach Out to Us</h2>
           <div class="row">
-            <h2 class="mb-4">Contact Us</h2>
             <!-- Left column for the form -->
-            <div class="col-lg-6">
+            <div class="col-lg-8">
               
               <form id="contactForm" method="POST" action="submit_form.php">
                 <div class="row mb-3">
-                  <div class="col">
+                  <div class="col form-floating">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
                     <label for="name" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
                   </div>
-                  <div class="col">
+                  <div class="col form-floating">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
                     <label for="email" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
                   </div>
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 form-floating">
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
                   <label for="subject" class="form-label">Subject</label>
-                  <input type="text" class="form-control" id="subject" name="subject" required>
                 </div>
                 <div class="mb-3">
-                  <label for="message" class="form-label">Message</label>
-                  <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                  <textarea class="form-control" id="message" name="message" rows="8" placeholder="Message" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary">Send Message</button>
               </form>
             </div>
       
             <!-- Right column for additional content -->
-            <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="card text-light bg-dark col-lg-4">
               <!--<div class="card-header">Header</div> -->
               <div class="card-body">
                 <!--<h5 class="card-title">Light card title</h5>-->
-                <p class="card-text 1"><strong>email</strong><br>ofb@gmail.com</p>
-                <p class="card-text 2"><strong>phone Number</strong><br>9876543210</p>
-                <p class="card-text 3"><strong>address</strong><br>Palakkad</p>
+                <p class="card-text 1"><strong>Email</strong><br>ofb@gmail.com</p>
+                <p class="card-text 2"><strong>Phone</strong><br>9876543210</p>
+                <p class="card-text 3"><strong>Address</strong><br>Palakkad</p>
               </div>
             </div>
             </div>
@@ -223,7 +237,8 @@
             
             <div class="row ftr">
               <div class="col-md-4">
-                <img src="logo.png" alt="Out of the Box" class="img-fluid">
+                <img src="assets/logos/ofb.png" alt="Out of the Box" class="img-fluid">
+                <span style="font-weight: 600;">OUT OF THE BOX</span>
               </div>
               <div class="col-md-8">
                 <ul class="nav justify-content-end">

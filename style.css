@@ -205,9 +205,10 @@ li.selected:hover {
 .reserved{
     text-align:center;
 }
-.container {
+
+.centered {
     text-align: center;
-  }
+}
   
   .img-circle {
     border-radius: 20%;
@@ -222,3 +223,14 @@ li.selected:hover {
     transform: scale(1.1);
   }
   
+
+  /* Why Choose US? */
+
+  .why-choose-us-p {
+    padding-top: 60px;
+    text-align: right;
+  }
+
+  .why-choose-us-h2 {
+    text-align: left;
+  }
